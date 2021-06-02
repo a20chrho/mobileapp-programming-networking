@@ -57,4 +57,11 @@ public class Mountains {
     //toString = Everything put into a string
     public String toString() { return name; }
 
+    public String info()
+    {
+        String tmp=new String();
+        tmp+=name+" is located in mountain tange "+location+" and reaches "+meters+"m above sea level.";
+        return tmp;
+    }
+
 }
